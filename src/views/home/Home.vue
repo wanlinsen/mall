@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <nav-bar class="home-nav-bar">
-      <div slot="center">购物街</div>
+      <div slot="center">购物街清清浅浅</div>
     </nav-bar>
 <!-- ref 是用于定位元素和取到组件的内容，:是绑定属性 @是绑定方法-->
     <scroller class="home-scroller" ref="scroller" :probe-type="3" @scroll="getPostion">
